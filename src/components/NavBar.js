@@ -26,23 +26,20 @@ const NavBar = () => {
           style={link}
           activeStyle={{
             background: 'darkblue'
-          }}
-        >Movies</NavLink>
+          }}>Movies</NavLink>
         <NavLink
           to="/directors"
           exact
           style={link}
           activeStyle={{
             background: 'darkblue'
-          }}
-        >Directors</NavLink>
+          }}>Directors</NavLink>
         <NavLink
           to="/actors"
           exact
           style={link}
           activeStyle={{
-            background: 'darkblue'
-          }}>Actors</NavLink>}
+            background: 'darkblue'}}>Actors</NavLink>}
     </div>
   );
 };
